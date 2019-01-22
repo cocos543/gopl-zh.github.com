@@ -6,11 +6,13 @@
 	"structure": {
 		"readme": "preface.md"
 	},
-	"theme-default": {
-            "showLevel": true
-        },
 	"plugins": [
 		"katex",
 		"-search"
-	]
+	],
+	"pluginsConfig": {
+	    "theme-default": {
+    	        "showLevel": true
+	    }
+	}
 }
